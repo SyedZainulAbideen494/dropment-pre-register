@@ -37,6 +37,18 @@ const App = () => {
               </div>  
             </header>
           </div>
+          <div className="form">
+          <h2>Pre register</h2>
+    <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label><br/>
+      <input type="text" name="to_name" className="normal"/><br/>
+      <label>Email</label><br/>
+      <input type="email" name="from_name"  className="normal"/><br/>
+      <label>Message</label><br/>
+      <textarea name="message"  className="normal"/><br/>
+      <input type="submit" value="Send"  className="btnininput"/>
+    </form>
+    </div>
           <div className="ourservicesdropment">
             <span>
             <div className="service1dropemnt">
@@ -78,18 +90,7 @@ const App = () => {
           </div>
           </span>
         </div>
-        <div className="form">
-          <h2>Pre register</h2>
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label><br/>
-      <input type="text" name="to_name" className="normal"/><br/>
-      <label>Email</label><br/>
-      <input type="email" name="from_name"  className="normal"/><br/>
-      <label>Message</label><br/>
-      <textarea name="message"  className="normal"/><br/>
-      <input type="submit" value="Send"  className="btnininput"/>
-    </form>
-    </div>
+        
         <div className="howitworks">
           <div className="stepbystepguideimg">
             <img src={step}/>
