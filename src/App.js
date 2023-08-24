@@ -25,9 +25,22 @@ const App = () => {
   return (
     <Fragment>
       <div className="header2dropment">
-        <header>
-          {/* ... existing header content ... */}
-        </header>
+      <header>
+              <section>
+                <div className="logo">
+                <img src={logo}/>
+                </div>
+              <div className="header2textdropment">
+                <h1>Build Your Perfect Online Store!</h1>
+                <div className="h1dropemnthead2h12">
+                <h1>Your Dream Store Awaits: Just a Few Clicks Away!</h1>
+                </div>
+                </div>
+              </section>  
+              <div className="header2dropimg">
+                <section></section>
+              </div>  
+            </header>
       </div>
       <div className="form">
         <h2>Pre register</h2>
