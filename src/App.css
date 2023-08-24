@@ -1260,5 +1260,6 @@
   margin-top: 10px;
   border-radius: 25px;
 }
-
-
+.success-message {
+    color: white;
+}

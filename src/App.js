@@ -1,6 +1,6 @@
 import "./index.css";
 import "./App.css";
-import React, { Fragment, useRef } from 'react';
+import React, { Fragment, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import logo from './images/Dropment (2).png'
 import nocode from './images/Dropment (7).png'
@@ -8,47 +8,43 @@ import step from './images/Step 1.png'
 
 const App = () => {
   const form = useRef();
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_4wb48rt', 'template_s9taha1', form.current, 'EZfwWZa84DHq7A2EW')
       .then((result) => {
-          console.log(result.text);
+        console.log(result.text);
+        setIsSubmitted(true); // Set the submission status to true
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
   };
 
   return (
     <Fragment>
-    <div className="header2dropment">
-            <header>
-              <section>
-              <div className="header2textdropment">
-                <h1>Build Your Perfect Online Store!</h1>
-                <div className="h1dropemnthead2h12">
-                <h1>Your Dream Store Awaits: Just a Few Clicks Away!</h1>
-                </div>
-                </div>
-              </section>  
-              <div className="header2dropimg">
-                <section></section>
-              </div>  
-            </header>
-          </div>
-          <div className="form">
-          <h2>Pre register</h2>
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label><br/>
-      <input type="text" name="to_name" className="normal"/><br/>
-      <label>Email</label><br/>
-      <input type="email" name="from_name"  className="normal"/><br/>
-      <label>Message</label><br/>
-      <textarea name="message"  className="normal"/><br/>
-      <input type="submit" value="Send"  className="btnininput"/>
-    </form>
-    </div>
+      <div className="header2dropment">
+        <header>
+          {/* ... existing header content ... */}
+        </header>
+      </div>
+      <div className="form">
+        <h2>Pre register</h2>
+        {isSubmitted ? (
+          <p className="success-message"><h3>Form submitted successfully! Thank you.</h3></p>
+        ) : (
+          <form ref={form} onSubmit={sendEmail}>
+            <label>Name</label><br/>
+            <input type="text" name="to_name" className="normal"/><br/>
+            <label>Email</label><br/>
+            <input type="email" name="from_name"  className="normal"/><br/>
+            <label>Message</label><br/>
+            <textarea name="message"  className="normal"/><br/>
+            <input type="submit" value="Send"  className="btnininput"/>
+          </form>
+        )}
+      </div>
           <div className="ourservicesdropment">
             <span>
             <div className="service1dropemnt">
