@@ -36,9 +36,9 @@ const App = () => {
         ) : (
           <form ref={form} onSubmit={sendEmail}>
             <label>Name</label><br/>
-            <input type="text" name="to_name" className="normal"/><br/>
+            <input type="text" name="to_name" className="normal" required/><br/>
             <label>Email</label><br/>
-            <input type="email" name="from_name"  className="normal"/><br/>
+            <input type="email" name="from_name"  className="normal" required/><br/>
             <label>Message</label><br/>
             <textarea name="message"  className="normal"/><br/>
             <input type="submit" value="Send"  className="btnininput"/>
