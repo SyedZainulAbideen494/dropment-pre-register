@@ -52,7 +52,7 @@ const App = () => {
             <input type="text" name="to_name" className="normal" required/><br/>
             <label>Email</label><br/>
             <input type="email" name="from_name"  className="normal" required/><br/>
-            <label>Message</label><br/>
+            <label>Message(optional)</label><br/>
             <textarea name="message"  className="normal"/><br/>
             <input type="submit" value="Send"  className="btnininput"/>
           </form>
