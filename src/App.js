@@ -13,7 +13,7 @@ const App = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_yoweeji', 'service_yoweeji', form.current, 'TA4h9XhSeUYLdyJz2')
+    emailjs.sendForm('service_yoweeji', 'template_mn6lzho', form.current, 'TA4h9XhSeUYLdyJz2')
       .then((result) => {
         console.log(result.text);
         setIsSubmitted(true); // Set the submission status to true
