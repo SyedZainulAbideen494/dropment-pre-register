@@ -136,6 +136,14 @@
       .socials {
         margin-left: 60px;
       }      
+      .after-timer-effect button {
+        padding: 15px 30px;
+        font-size: 20px;
+      }
+    
+      .after-timer-effect h1 {
+        font-size: 24px;
+      }
 } 
 @media (min-width: 481px) and (max-width: 768px) {
     body {
@@ -275,6 +283,14 @@
       .socials {
         margin-left: 60px;
       }    
+      .after-timer-effect button {
+        padding: 18px 34px;
+        font-size: 20px;
+      }
+    
+      .after-timer-effect h1 {
+        font-size: 30px;
+      }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -415,7 +431,14 @@
       .socials {
         margin-left: 60px;
       }    
- 
+      .after-timer-effect button {
+        padding: 20px 38px;
+        font-size: 20px;
+      }
+    
+      .after-timer-effect h1 {
+        font-size: 30px;
+      }
 }
 @media (min-width: 1025px) {
   body{
@@ -519,6 +542,24 @@
     color: white;
     border: 2px solid #33CAC9;
     transition: 0.3s;
+  }
+  .after-timer-effect button {
+    padding: 20px 40px;
+    color: white;
+    font-size: 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 9px;
+    margin-bottom: 20px;
+  }
+  .after-timer-effect h1 {
+    color: white;
+  }
+  .after-timer-effect button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+    cursor: pointer;
   }
 }
 
