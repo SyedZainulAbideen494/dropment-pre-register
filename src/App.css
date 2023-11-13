@@ -79,7 +79,7 @@
       }
       
       .success-message {
-        color: green;
+        color: rgb(255, 255, 255);
       }
       
       .normal {
@@ -218,7 +218,7 @@
       }
       
       .success-message {
-        color: green;
+        color: rgb(255, 255, 255);
       }
       
       .normal {
@@ -358,7 +358,7 @@
       }
       
       .success-message {
-        color: green;
+        color: rgb(255, 255, 255);
       }
       
       .normal {
@@ -486,7 +486,7 @@
   }
   
   .success-message {
-    color: green;
+    color: rgb(255, 255, 255);
   }
   
   .normal {
