@@ -79,7 +79,7 @@ const App = () => {
     );
   };
 
-  const targetLaunchDate = '2023-12-15T00:00:00';
+  const targetLaunchDate = '2023-12-15T20:00:00';
 
   return (
     <div className="app-container">
