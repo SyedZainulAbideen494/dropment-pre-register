@@ -522,7 +522,12 @@
   }
 }
 
-
+.mnth-r-f-n {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+}
 
 @import url('https://fonts.googleapis.com/css?family=San+Francisco&display=swap');
 
