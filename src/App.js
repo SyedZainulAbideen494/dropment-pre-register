@@ -119,9 +119,9 @@ const App = () => {
         ) : (
           <form ref={form} onSubmit={sendEmail}>
             <label>Name</label><br/>
-            <input type="text" name="to_name" className="normal" required placeholder="Name"/><br/>
+            <input type="text" name="to_name" className="normal" required placeholder="Name"style={{ color: 'white' }}/><br/>
             <label>Email</label><br/>
-            <input type="email" name="from_name"  className="normal" required placeholder="email"/><br/>
+            <input type="email" name="from_name"  className="normal" required placeholder="email"style={{ color: 'white' }}/><br/>
             <input type="submit" value="Send"  className="btnininput"/>
           </form>
         )}
