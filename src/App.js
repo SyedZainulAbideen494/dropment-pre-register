@@ -120,7 +120,6 @@ const App = () => {
           </form>
         )}
       </div>
-      <h2 className="mnth-r-f-n">Get 3 months free premium<br />pre-register now!</h2>
       
     </div>
   );
