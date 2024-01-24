@@ -1,578 +1,107 @@
 @media (min-width: 312px) and (max-width: 480px) {
-    body {
-        background-color: #070A0B;
-      }
-      
-      .logo img {
-        width: 50px;
-        margin-top: 20px;
-      }
-      
-      .countdown-main {
-        display: flex;
-        flex-direction: column;
-      }
-      
-      .countdown-container {
-        text-align: center;
-        margin-top: 50px;
-        margin-bottom: 50px;
-      }
-      
-      .countdown-div {
-        color: white;
-        font-size: xx-large;
-      }
-      
-      .countdown-timer {
-        border: 2px solid white;
-        padding: 20px; /* Adjust padding for smaller screens */
-        border-radius: 9px;
-        margin: 10px;
-      }
-      
-      .ul-txt {
-        color: white;
-        font-size: 30px; /* Adjust font size for smaller screens */
-        margin-top: 30px; /* Adjust margin for smaller screens */
-      }
-      
-      .timer-txt {
-        color: white;
-        font-size: 60px; /* Adjust font size for smaller screens */
-      }
-      
-      .header header {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-      }
-      
-      .btnsheader button {
-        color: white;
-        font-size: 14px; /* Adjust font size for smaller screens */
-        background-color: transparent;
-        border: transparent;
-        margin-left: 20px; /* Adjust margin for smaller screens */
-      }
-      
-      .socials img {
-        width: 20px; /* Adjust size for smaller screens */
-      }
-      
-      .socials {
-        text-align: center;
-        color: white;
-      }
-      
-      .form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        max-width: 300px; /* Adjust max-width for smaller screens */
-        margin: auto;
-        margin-top: 20px;
-        color: white;
-        border-radius: 15px;
-      }
-      
-      .success-message {
-        color: rgb(255, 255, 255);
-      }
-      
-      .normal {
-        margin-bottom: 10px;
-        width: 100%;
-        padding: 20px;
-        border-radius: 15px;
-        box-sizing: border-box;
-        background-color: #070A0B;
-        border: 1px solid #3D4545;
-      }
-      
-      .btnininput {
-        background-color: #33CAC9;
-        color: white;
-        padding: 10px;
-        border: 2px solid #33CAC9;
-        border-radius: 5px;
-        cursor: pointer;
-      }
-      
-      .form h2 {
-        font-size: 30px; /* Adjust font size for smaller screens */
-      }
-      
-      .form label {
-        font-size: 16px; /* Adjust font size for smaller screens */
-        margin: 10px 0px;
-      }
-      
-      .btnininput:hover {
-        background-color: transparent;
-        color: white;
-        border: 2px solid #33CAC9;
-        transition: 0.3s;
-      }
-      .countdown-timer {
-        padding: 10px;
-      }
-    
-      .ul-txt {
-        font-size: 24px;
-        margin-top: 30px;
-      }
-    
-      .timer-txt {
-        font-size: 40px;
-      }
-    
-      .btnsheader button {
-        margin-left: 10px;
-      }
-    
-      .socials {
-        margin-left: 60px;
-      }      
-      .after-timer-effect button {
-        padding: 15px 30px;
-        font-size: 20px;
-      }
-    
-      .after-timer-effect h1 {
-        font-size: 24px;
-      }
+  
 } 
 @media (min-width: 481px) and (max-width: 768px) {
-    body {
-        background-color: #070A0B;
-      }
-      
-      .logo img {
-        width: 50px;
-        margin-top: 20px;
-      }
-      
-      .countdown-main {
-        display: flex;
-        flex-direction: column;
-      }
-      
-      .countdown-container {
-        text-align: center;
-        margin-top: 50px;
-        margin-bottom: 50px;
-      }
-      
-      .countdown-div {
-        color: white;
-        font-size: xx-large;
-      }
-      
-      .countdown-timer {
-        border: 2px solid white;
-        padding: 20px; /* Adjust padding for smaller screens */
-        border-radius: 9px;
-        margin: 10px;
-      }
-      
-      .ul-txt {
-        color: white;
-        font-size: 30px; /* Adjust font size for smaller screens */
-        margin-top: 30px; /* Adjust margin for smaller screens */
-      }
-      
-      .timer-txt {
-        color: white;
-        font-size: 60px; /* Adjust font size for smaller screens */
-      }
-      
-      .header header {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-      }
-      
-      .btnsheader button {
-        color: white;
-        font-size: 14px; /* Adjust font size for smaller screens */
-        background-color: transparent;
-        border: transparent;
-        margin-left: 20px; /* Adjust margin for smaller screens */
-      }
-      
-      .socials img {
-        width: 20px; /* Adjust size for smaller screens */
-      }
-      
-      .socials {
-        text-align: center;
-        color: white;
-      }
-      
-      .form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        max-width: 300px; /* Adjust max-width for smaller screens */
-        margin: auto;
-        margin-top: 20px;
-        color: white;
-        border-radius: 15px;
-      }
-      
-      .success-message {
-        color: rgb(255, 255, 255);
-      }
-      
-      .normal {
-        margin-bottom: 10px;
-        width: 100%;
-        padding: 20px;
-        border-radius: 15px;
-        box-sizing: border-box;
-        background-color: #070A0B;
-        border: 1px solid #3D4545;
-      }
-      
-      .btnininput {
-        background-color: #33CAC9;
-        color: white;
-        padding: 10px;
-        border: 2px solid #33CAC9;
-        border-radius: 5px;
-        cursor: pointer;
-      }
-      
-      .form h2 {
-        font-size: 30px; /* Adjust font size for smaller screens */
-      }
-      
-      .form label {
-        font-size: 16px; /* Adjust font size for smaller screens */
-        margin: 10px 0px;
-      }
-      
-      .btnininput:hover {
-        background-color: transparent;
-        color: white;
-        border: 2px solid #33CAC9;
-        transition: 0.3s;
-      }
-      .countdown-timer {
-        padding: 10px;
-      }
-    
-      .ul-txt {
-        font-size: 24px;
-        margin-top: 30px;
-      }
-    
-      .timer-txt {
-        font-size: 40px;
-      }
-    
-      .btnsheader button {
-        margin-left: 10px;
-      }
-    
-      .socials {
-        margin-left: 60px;
-      }    
-      .after-timer-effect button {
-        padding: 18px 34px;
-        font-size: 20px;
-      }
-    
-      .after-timer-effect h1 {
-        font-size: 30px;
-      }
+  
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-    body {
-        background-color: #070A0B;
-      }
-      
-      .logo img {
-        width: 50px;
-        margin-top: 20px;
-      }
-      
-      .countdown-main {
-        display: flex;
-        flex-direction: column;
-      }
-      
-      .countdown-container {
-        text-align: center;
-        margin-top: 50px;
-        margin-bottom: 50px;
-      }
-      
-      .countdown-div {
-        color: white;
-        font-size: xx-large;
-      }
-      
-      .countdown-timer {
-        border: 2px solid white;
-        padding: 20px; /* Adjust padding for smaller screens */
-        border-radius: 9px;
-        margin: 10px;
-      }
-      
-      .ul-txt {
-        color: white;
-        font-size: 30px; /* Adjust font size for smaller screens */
-        margin-top: 30px; /* Adjust margin for smaller screens */
-      }
-      
-      .timer-txt {
-        color: white;
-        font-size: 60px; /* Adjust font size for smaller screens */
-      }
-      
-      .header header {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-      }
-      
-      .btnsheader button {
-        color: white;
-        font-size: 14px; /* Adjust font size for smaller screens */
-        background-color: transparent;
-        border: transparent;
-        margin-left: 20px; /* Adjust margin for smaller screens */
-      }
-      
-      .socials img {
-        width: 20px; /* Adjust size for smaller screens */
-      }
-      
-      .socials {
-        text-align: center;
-        color: white;
-      }
-      
-      .form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        max-width: 300px; /* Adjust max-width for smaller screens */
-        margin: auto;
-        margin-top: 20px;
-        color: white;
-        border-radius: 15px;
-      }
-      
-      .success-message {
-        color: rgb(255, 255, 255);
-      }
-      
-      .normal {
-        margin-bottom: 10px;
-        width: 100%;
-        padding: 20px;
-        border-radius: 15px;
-        box-sizing: border-box;
-        background-color: #070A0B;
-        border: 1px solid #3D4545;
-      }
-      
-      .btnininput {
-        background-color: #33CAC9;
-        color: white;
-        padding: 10px;
-        border: 2px solid #33CAC9;
-        border-radius: 5px;
-        cursor: pointer;
-      }
-      
-      .form h2 {
-        font-size: 30px; /* Adjust font size for smaller screens */
-      }
-      
-      .form label {
-        font-size: 16px; /* Adjust font size for smaller screens */
-        margin: 10px 0px;
-      }
-      
-      .btnininput:hover {
-        background-color: transparent;
-        color: white;
-        border: 2px solid #33CAC9;
-        transition: 0.3s;
-      }
-      .countdown-timer {
-        padding: 10px;
-      }
-    
-      .ul-txt {
-        font-size: 24px;
-        margin-top: 30px;
-      }
-    
-      .timer-txt {
-        font-size: 40px;
-      }
-    
-      .btnsheader button {
-        margin-left: 10px;
-      }
-    
-      .socials {
-        margin-left: 60px;
-      }    
-      .after-timer-effect button {
-        padding: 20px 38px;
-        font-size: 20px;
-      }
-    
-      .after-timer-effect h1 {
-        font-size: 30px;
-      }
+   
 }
 @media (min-width: 1025px) {
-  body{
-    background-color: #070A0B;
-  }
   .logo img {
-    width: 50px;
-    margin-top: 20px;
+    width: 80px;
   }
-  .countdown-main {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .countdown-container {
-    text-align: center;
-  }
-  .countdown-div {
-    color: white;
-    font-size: xx-large;
-  }
-  .countdown-timer {
-    border: 2px solid white;
-    padding: 40px;
-    border-radius: 9px;
-    margin: 10px;
-  }
-  .ul-txt {
-    color: white;
-    font-size: 50px;
-    margin-top: 50px;
-  }
-  .timer-txt {
-    color: white;
-    font-size: 100px;
-  }
-  .header header {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .btnsheader button {
-    color: white;
-    font-size: 20px;
-    background-color: transparent;
-    border: transparent;
-    margin-left: 50px
- }
- .socials img {
-    width: 30px;
- }
- .socials{
-    margin-left: 900px;
-    text-align: center;
-    color: white;
- }
- .form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    max-width: 400px; /* Adjust the max-width as needed */
-    margin: auto; /* This will center the form horizontally */
-    margin-top: 50px; /* Adjust the top margin as needed */
-    color: white;
-    border-radius: 15px;
-  }
-  
-  .success-message {
-    color: rgb(255, 255, 255);
-  }
-  
-  .normal {
-    margin-bottom: 10px;
-    width: 100%;
-    padding: 20px 50px;
-    border-radius: 15px;
-    box-sizing: border-box;
-    background-color: #070A0B;
-    border: 1px solid #3D4545;
-  }
-  
-  .btnininput {
-    background-color: #33CAC9;
-    color: white;
-    padding: 10px 30px;
-    border: 2px solid #33CAC9;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  .form h2 {
-    font-size: 40px;
-  }
-  .form label {
-    font-size: 20px;
-    margin: 10px 0px;
-  }
-  .btnininput:hover {
-    background-color: transparent;
-    color: white;
-    border: 2px solid #33CAC9;
-    transition: 0.3s;
-  }
-  .after-timer-effect button {
-    padding: 20px 40px;
-    color: white;
-    font-size: 30px;
-    background-color: transparent;
-    border: 2px solid white;
-    border-radius: 9px;
-    margin-bottom: 20px;
-  }
-  .after-timer-effect h1 {
-    color: white;
-  }
-  .after-timer-effect button:hover {
+
+  .contact-us-btn-spcbtn {
     background-color: white;
     color: black;
-    transition: 0.4s;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 12px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .contact-us-btn-spcbtn::before {
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: width 0.3s ease-out;
+  }
+
+  .contact-us-btn-spcbtn:hover {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    transition: 0.3s;
+  }
+
+  .header-btns button {
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 17px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 1; /* Ensure the text is displayed in front */
+  }
+
+  .header-btn {
+    background-color: black;
+    border: none;
+    color: white;
+    margin-right: 40px;
     cursor: pointer;
   }
-}
 
-.mnth-r-f-n {
-  color: white;
-  text-align: center;
-  font-size: 20px;
-  margin-top: 50px;
-}
+  .header-btn::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: width 0.3s ease-out;
+  }
 
+  .header-btn:hover::before {
+    width: 100%;
+    transform-origin: bottom left;
+  }
+
+  .header-btn:hover {
+    text-decoration: none;
+  }
+
+  .header-btns {
+    text-align: left;
+    margin-left: auto; /* Push the buttons to the right */
+  }
+
+  .header header {
+    display: flex;
+  }
+  .banner {
+    color: #333; /* Dark text color */
+    text-align: center;
+    padding: 100px 0;
+    background-color: #868686; /* Dark background color */
+    background-image: url('./images/Untitled design.png'); /* Add your background image path */
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    background-blend-mode: multiply; /* Blend mode to blend text with background */
+}
+}
 @import url('https://fonts.googleapis.com/css?family=San+Francisco&display=swap');
 
 body{
   font-family: 'San Francisco', sans-serif;
+  background-color: black;
 }
 
