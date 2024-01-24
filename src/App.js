@@ -16,6 +16,7 @@ const App = () => {
             <div className='header-btns'>
               <button className='header-btn'>About us</button>
               <button className='header-btn'>Details</button>
+              <button className='header-btn'>Book now</button>
               <button className='contact-us-btn-spcbtn'>Contact us</button>
             </div>
           </header>
