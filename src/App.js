@@ -3,8 +3,15 @@ import axios from 'axios';
 import './App.css';
 import logo from './images/S.png';
 import banner from './images/Untitled design.png';
+import { Link } from 'react-router-dom';
 
 const App = () => {
+    const phoneNumber = '9845810182';
+    const whatsappLink = `https://wa.me/${phoneNumber}`;
+  
+    const openWhatsAppChat = () => {
+      window.open(whatsappLink, '_blank');
+    };
   return (
     <Fragment>
       <div className='main-div'>
@@ -17,7 +24,7 @@ const App = () => {
               <button className='header-btn'>About us</button>
               <button className='header-btn'>Details</button>
               <button className='header-btn'>Book now</button>
-              <button className='contact-us-btn-spcbtn'>Contact us</button>
+              <button className='contact-us-btn-spcbtn' onClick={openWhatsAppChat}>Contact us</button>
             </div>
           </header>
         </div>
