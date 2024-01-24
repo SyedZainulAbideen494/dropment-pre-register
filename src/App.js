@@ -30,6 +30,10 @@ const App = () => {
         </div>
       </div>
       <div className='banner'>
+        <div className='banner-txt'>
+        <h2>Book your room<br/> now!</h2>
+        <button>Book Now</button>
+        </div>
       </div>
     </Fragment>
   );

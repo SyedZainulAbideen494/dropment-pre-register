@@ -77,8 +77,6 @@
     margin-bottom: 20px;
   }
   .banner {
-    color: #333; /* Dark text color */
-    text-align: center;
     padding: 100px 0;
     background-color: #868686; /* Dark background color */
     background-image: url('./images/Untitled design.png'); /* Add your background image path */
@@ -86,6 +84,30 @@
     background-position: center;
     height: 40vh;
     background-blend-mode: multiply; /* Blend mode to blend text with background */
+}
+.banner h2 {
+  font-size: 30px;
+  margin-top: 60px;
+  color: white;
+}
+.banner button {
+  color: white;
+  background-color: #ffb703;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 2px solid #ffb703;
+  font-size: 16px;
+}
+.banner button:hover {
+  color: white;
+  transition: 0.3s;
+  background-color: transparent;
+  border: 2px solid #ffb703;
+}
+.banner-txt {
+  width: 100%;
+  text-align: center;
 }
 } 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -167,8 +189,6 @@
     margin-bottom: 20px;
   }
   .banner {
-    color: #333; /* Dark text color */
-    text-align: center;
     padding: 100px 0;
     background-color: #868686; /* Dark background color */
     background-image: url('./images/Untitled design.png'); /* Add your background image path */
@@ -176,6 +196,30 @@
     background-position: center;
     height: 40vh;
     background-blend-mode: multiply; /* Blend mode to blend text with background */
+}
+.banner h2 {
+  font-size: 30px;
+  margin-top: 60px;
+  color: white;
+}
+.banner button {
+  color: white;
+  background-color: #ffb703;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 2px solid #ffb703;
+  font-size: 16px;
+}
+.banner button:hover {
+  color: white;
+  transition: 0.3s;
+  background-color: transparent;
+  border: 2px solid #ffb703;
+}
+.banner-txt {
+  width: 100%;
+  text-align: center;
 }
 }
 
@@ -259,8 +303,6 @@
     display: flex;
   }
   .banner {
-    color: #333; /* Dark text color */
-    text-align: center;
     padding: 100px 0;
     background-color: #868686; /* Dark background color */
     background-image: url('./images/Untitled design.png'); /* Add your background image path */
@@ -268,6 +310,32 @@
     background-position: center;
     height: 70vh;
     background-blend-mode: multiply; /* Blend mode to blend text with background */
+}
+.banner h2 {
+  font-size: 40px;
+  margin-top: 110px;
+  color: white;
+  margin-left: 40px;
+}
+.banner button {
+  color: white;
+  background-color: #ffb703;
+  border-radius: 25px;
+  padding: 16px 28px;
+  cursor: pointer;
+  border: 2px solid #ffb703;
+  font-size: 16px;
+  margin-left: 40px
+}
+.banner button:hover {
+  color: white;
+  transition: 0.3s;
+  background-color: transparent;
+  border: 2px solid #ffb703;
+}
+.banner-txt {
+  width: 400px;
+  text-align: center;
 }
 }
 @media (min-width: 1025px) {
@@ -350,8 +418,6 @@
     display: flex;
   }
   .banner {
-    color: #333; /* Dark text color */
-    text-align: center;
     padding: 100px 0;
     background-color: #868686; /* Dark background color */
     background-image: url('./images/Untitled design.png'); /* Add your background image path */
@@ -359,6 +425,32 @@
     background-position: center;
     height: 70vh;
     background-blend-mode: multiply; /* Blend mode to blend text with background */
+}
+.banner h2 {
+  font-size: 40px;
+  margin-top: 110px;
+  color: white;
+  margin-left: 40px;
+}
+.banner button {
+  color: white;
+  background-color: #ffb703;
+  border-radius: 25px;
+  padding: 16px 28px;
+  cursor: pointer;
+  border: 2px solid #ffb703;
+  font-size: 16px;
+  margin-left: 40px
+}
+.banner button:hover {
+  color: white;
+  transition: 0.3s;
+  background-color: transparent;
+  border: 2px solid #ffb703;
+}
+.banner-txt {
+  width: 400px;
+  text-align: center;
 }
 }
 @import url('https://fonts.googleapis.com/css?family=San+Francisco&display=swap');
