@@ -89,11 +89,186 @@
 }
 } 
 @media (min-width: 481px) and (max-width: 768px) {
-  
+  .logo img {
+    width: 40px;
+  }
+
+  .contact-us-btn-spcbtn {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 8px;
+    margin-right: 5px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .contact-us-btn-spcbtn::before {
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: width 0.3s ease-out;
+  }
+
+  .contact-us-btn-spcbtn:hover {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    transition: 0.3s;
+  }
+
+  .header-btns button {
+    cursor: pointer;
+    margin-top: 7px;
+    margin-left: 5px;
+    position: relative;
+    z-index: 1; /* Ensure the text is displayed in front */
+  }
+
+  .header-btn {
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  .header-btn::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: width 0.3s ease-out;
+  }
+
+  .header-btn:hover::before {
+    width: 100%;
+    transform-origin: bottom left;
+  }
+
+  .header-btn:hover {
+    text-decoration: none;
+  }
+
+  .header-btns {
+    text-align: left;
+    margin-left: auto; /* Push the buttons to the right */
+  }
+
+  .header header {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .banner {
+    color: #333; /* Dark text color */
+    text-align: center;
+    padding: 100px 0;
+    background-color: #868686; /* Dark background color */
+    background-image: url('./images/Untitled design.png'); /* Add your background image path */
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    background-blend-mode: multiply; /* Blend mode to blend text with background */
+}
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-   
+  .logo img {
+    width: 80px;
+  }
+
+  .contact-us-btn-spcbtn {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 12px;
+    cursor: pointer;
+    margin-right: 20px;
+    position: relative;
+  }
+
+  .contact-us-btn-spcbtn::before {
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: width 0.3s ease-out;
+  }
+
+  .contact-us-btn-spcbtn:hover {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    transition: 0.3s;
+  }
+
+  .header-btns button {
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 17px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 1; /* Ensure the text is displayed in front */
+  }
+
+  .header-btn {
+    background-color: black;
+    border: none;
+    color: white;
+    margin-right: 40px;
+    cursor: pointer;
+  }
+
+  .header-btn::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: width 0.3s ease-out;
+  }
+
+  .header-btn:hover::before {
+    width: 100%;
+    transform-origin: bottom left;
+  }
+
+  .header-btn:hover {
+    text-decoration: none;
+  }
+
+  .header-btns {
+    text-align: left;
+    margin-left: auto; /* Push the buttons to the right */
+  }
+
+  .header header {
+    display: flex;
+  }
+  .banner {
+    color: #333; /* Dark text color */
+    text-align: center;
+    padding: 100px 0;
+    background-color: #868686; /* Dark background color */
+    background-image: url('./images/Untitled design.png'); /* Add your background image path */
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    background-blend-mode: multiply; /* Blend mode to blend text with background */
+}
 }
 @media (min-width: 1025px) {
   .logo img {
