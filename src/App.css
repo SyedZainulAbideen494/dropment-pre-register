@@ -109,6 +109,55 @@
   width: 100%;
   text-align: center;
 }
+.some-breif-description {
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+/* Your existing styles */
+.box-sbd {
+  color: white;
+  background-color: transparent;
+  border: 2px solid #ffb703;
+  width: 320px;
+  height: 160px; /* Adjust the height as needed */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: 0px 80px;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.box-sbd h3 {
+  color: #ffb703;
+  margin: 0;
+}
+
+.box-sbd-spc {
+  color: white;
+  background-color: #ffb703;
+  width: 320px;
+  height: 160px; /* Adjust the height as needed */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid #ffb703;
+  margin: 30px 80px;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.box-sbd-spc h3 {
+  margin: 0;
+}
 } 
 @media (min-width: 481px) and (max-width: 768px) {
   .logo img {
@@ -451,6 +500,61 @@
 .banner-txt {
   width: 400px;
   text-align: center;
+}
+.some-breif-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+/* Your existing styles */
+.box-sbd {
+  color: white;
+  background-color: transparent;
+  width: 320px;
+  height: 160px; /* Adjust the height as needed */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: 10px;
+  border: 2px solid #ffb703;
+  transition: transform 0.3s ease-in-out;
+}
+
+.box-sbd:hover {
+  transform: translateY(-5px); /* Move the box up by 5 pixels on hover */
+}
+
+.box-sbd h3 {
+  color: #ffb703;
+  margin: 0;
+}
+
+.box-sbd-spc {
+  color: white;
+  background-color: #ffb703;
+  width: 320px;
+  height: 160px; /* Adjust the height as needed */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: 0px 80px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.box-sbd-spc:hover {
+  transform: translateY(-5px); /* Move the box up by 5 pixels on hover */
+}
+
+.box-sbd-spc h3 {
+  margin: 0;
 }
 }
 @import url('https://fonts.googleapis.com/css?family=San+Francisco&display=swap');
