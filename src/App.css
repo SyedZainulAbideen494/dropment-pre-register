@@ -110,53 +110,58 @@
   text-align: center;
 }
 .some-breif-description {
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
+  text-align: center; /* Center align the boxes */
+  margin-top: 50px; /* Reduced margin for mobile */
 }
 
-/* Your existing styles */
-.box-sbd {
+.box-sbd{
   color: white;
   background-color: transparent;
-  border: 2px solid #ffb703;
-  width: 320px;
-  height: 160px; /* Adjust the height as needed */
+  width: 100%; /* Make the boxes full width on small screens */
+  max-width: 320px; /* Set a maximum width for larger screens */
+  height: 160px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  margin: 0px 80px;
+  margin: 10px auto; /* Center the boxes horizontally */
+  border: 2px solid #ffb703;
+  transition: transform 0.3s ease-in-out;
+}
+.box-sbd-spc {
+  color: white;
+  background-color: #ffb703;
+  width: 100%; /* Make the boxes full width on small screens */
+  max-width: 320px; /* Set a maximum width for larger screens */
+  height: 160px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: 10px auto; /* Center the boxes horizontally */
+  border: 2px solid #ffb703;
   transition: transform 0.3s ease-in-out;
 }
 
 
-.box-sbd h3 {
+.box-sbd:hover,
+.box-sbd-spc:hover {
+  transform: translateY(-5px);
+}
+
+.box-sbd h3{
   color: #ffb703;
   margin: 0;
 }
 
-.box-sbd-spc {
-  color: white;
-  background-color: #ffb703;
-  width: 320px;
-  height: 160px; /* Adjust the height as needed */
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 8px;
-  border: 2px solid #ffb703;
-  margin: 30px 80px;
-  transition: transform 0.3s ease-in-out;
-}
-
-
-.box-sbd-spc h3 {
-  margin: 0;
+/* Media query for small screens (e.g., mobile) */
+  .box-sbd,
+  .box-sbd-spc {
+    margin: 10px auto; /* Center the boxes horizontally on smaller screens */
 }
 } 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -269,6 +274,60 @@
 .banner-txt {
   width: 100%;
   text-align: center;
+}
+.some-breif-description {
+  text-align: center; /* Center align the boxes */
+  margin-top: 50px; /* Reduced margin for mobile */
+}
+
+.box-sbd{
+  color: white;
+  background-color: transparent;
+  width: 100%; /* Make the boxes full width on small screens */
+  max-width: 320px; /* Set a maximum width for larger screens */
+  height: 160px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: 10px auto; /* Center the boxes horizontally */
+  border: 2px solid #ffb703;
+  transition: transform 0.3s ease-in-out;
+}
+.box-sbd-spc {
+  color: white;
+  background-color: #ffb703;
+  width: 100%; /* Make the boxes full width on small screens */
+  max-width: 320px; /* Set a maximum width for larger screens */
+  height: 160px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: 10px auto; /* Center the boxes horizontally */
+  border: 2px solid #ffb703;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.box-sbd:hover,
+.box-sbd-spc:hover {
+  transform: translateY(-5px);
+}
+
+.box-sbd h3{
+  color: #ffb703;
+  margin: 0;
+}
+
+/* Media query for small screens (e.g., mobile) */
+  .box-sbd,
+  .box-sbd-spc {
+    margin: 10px auto; /* Center the boxes horizontally on smaller screens */
 }
 }
 
@@ -385,6 +444,61 @@
 .banner-txt {
   width: 400px;
   text-align: center;
+}
+.some-breif-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+/* Your existing styles */
+.box-sbd {
+  color: white;
+  background-color: transparent;
+  width: 320px;
+  height: 160px; /* Adjust the height as needed */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: 10px;
+  border: 2px solid #ffb703;
+  transition: transform 0.3s ease-in-out;
+}
+
+.box-sbd:hover {
+  transform: translateY(-5px); /* Move the box up by 5 pixels on hover */
+}
+
+.box-sbd h3 {
+  color: #ffb703;
+  margin: 0;
+}
+
+.box-sbd-spc {
+  color: white;
+  background-color: #ffb703;
+  width: 320px;
+  height: 160px; /* Adjust the height as needed */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: 0px 40px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.box-sbd-spc:hover {
+  transform: translateY(-5px); /* Move the box up by 5 pixels on hover */
+}
+
+.box-sbd-spc h3 {
+  margin: 0;
 }
 }
 @media (min-width: 1025px) {
