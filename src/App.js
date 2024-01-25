@@ -79,19 +79,19 @@ Welcome to Saz PG, an exclusive
       <div className='scroll-container'>
         <section className='sell-section-box'>
           <h2>2 sharing</h2>
-          <button>Book now</button>
+          <button onClick={openWhatsAppChat}>Book now</button>
         </section>
         <section className='sell-section-box'>
           <h2>3 sharing</h2>
-          <button>Book now</button>
+          <button onClick={openWhatsAppChat}>Book now</button>
         </section>
         <section className='sell-section-box'>
           <h2>4 sharing</h2>
-          <button>Book now</button>
+          <button onClick={openWhatsAppChat}>Book now</button>
         </section>
         <section className='sell-section-box'>
           <h2>Daily basis</h2>
-          <button>Book now</button>
+          <button onClick={openWhatsAppChat}>Book now</button>
         </section>
       </div>
     </div>

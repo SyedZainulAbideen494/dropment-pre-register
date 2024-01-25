@@ -776,16 +776,17 @@
 
 .sell-section-box button {
   background-color: #ffd700; /* Golden button color */
-  color: #333; /* Dark text color for the button */
+  color: #ffffff; /* Dark text color for the button */
   padding: 10px 15px; /* Adjust padding as needed */
-  border: none;
+  border: 1px solid #ffd700;
   border-radius: 4px; /* Rounded corners for buttons */
   cursor: pointer;
   transition: background-color 0.3s ease; /* Smooth transition on hover */
 }
 
 .sell-section-box button:hover {
-  background-color: #ffcc00; /* Darken the button color on hover */
+  background-color: transparent; /* Darken the button color on hover */
+  border: 1px solid #ffd700;
 }
 
 /* Responsive Styles for Mobile */
