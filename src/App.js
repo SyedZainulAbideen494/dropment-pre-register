@@ -4,6 +4,7 @@ import './App.css';
 import logo from './images/S.png';
 import banner from './images/Untitled design.png';
 import star from './images/Untitled_design-removebg-preview.png'
+import img1 from './images/Real Estate Agent Granville, OH _ Aaron Graves KW Realty.jpg'
 import { Link } from 'react-router-dom';
 
 const App = () => {
@@ -29,7 +30,6 @@ const App = () => {
         </div>
       </header>
     </div>
-  </div>
   <div className='banner'>
     <div className='banner-txt'>
       <h2>Book your room<br/> now!</h2>
@@ -52,6 +52,10 @@ const App = () => {
             Years old
         </h3>
     </section>
+   </div>
+   <div className='aboutUs'>
+        <section className='abtusimg'></section>
+   </div>
    </div>
 </Fragment>
   );

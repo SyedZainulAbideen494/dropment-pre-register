@@ -489,7 +489,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  margin: 0px 40px;
+  margin: 0px 30px;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -669,6 +669,13 @@
 
 .box-sbd-spc h3 {
   margin: 0;
+}
+.abtusimg {
+  background-image: url('./images/Real\ Estate\ Agent\ Granville\,\ OH\ _\ Aaron\ Graves\ KW\ Realty.jpg'); /* Add your background image path */
+  background-size: 400px;
+  border-radius: 15px;
+  height: 100vh;
+  background-repeat: no-repeat;
 }
 }
 @import url('https://fonts.googleapis.com/css?family=San+Francisco&display=swap');
