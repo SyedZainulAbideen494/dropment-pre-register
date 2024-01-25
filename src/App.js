@@ -54,7 +54,7 @@ const App = () => {
     </section>
     <section className='box-sbd'>
         <h3>15+<br/>
-            Years old
+            Years legacy
         </h3>
     </section>
    </div>
