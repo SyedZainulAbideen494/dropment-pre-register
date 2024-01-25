@@ -53,7 +53,7 @@ const App = () => {
         </h3>
     </section>
     <section className='box-sbd'>
-        <h3>15+<br/>
+        <h3>15<br/>
             Years legacy
         </h3>
     </section>
