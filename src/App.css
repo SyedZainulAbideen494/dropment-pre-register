@@ -670,13 +670,70 @@
 .box-sbd-spc h3 {
   margin: 0;
 }
+}
+
+.aboutUs {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+
 .abtusimg {
-  background-image: url('./images/Real\ Estate\ Agent\ Granville\,\ OH\ _\ Aaron\ Graves\ KW\ Realty.jpg'); /* Add your background image path */
-  background-size: 400px;
+  background-image: url('./images/Real\ Estate\ Agent\ Granville\,\ OH\ _\ Aaron\ Graves\ KW\ Realty.jpg');
+  background-size: cover;
   border-radius: 15px;
   height: 100vh;
   background-repeat: no-repeat;
+  flex: 1;
 }
+
+.abtus-text {
+  flex: 1;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  box-sizing: border-box; /* Include padding in the total width */
+}
+
+.abtus-text h2 {
+  color: #ffd700;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.abtus-text p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Stack items vertically on screens with a maximum width of 768 pixels */
+@media (max-width: 768px) {
+  .aboutUs {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .abtusimg,
+  .abtus-text {
+    flex: initial;
+    width: 100%;
+    margin: 0; /* Remove margin on small screens */
+    box-sizing: border-box; /* Include padding in the total width */
+  }
+  .abtusimg {
+    height: 50vh;
+  }
+  .abtus-text {
+    margin: 0; /* Remove margin on small screens */
+  }
+  .abtus-text h2 {
+    font-size: 30px;
+  }
+  .abtus-text p {
+    font-size: 16px;
+  }
 }
 @import url('https://fonts.googleapis.com/css?family=San+Francisco&display=swap');
 
