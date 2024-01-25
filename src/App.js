@@ -6,6 +6,8 @@ import banner from './images/Untitled design.png';
 import star from './images/Untitled_design-removebg-preview.png'
 import img1 from './images/Real Estate Agent Granville, OH _ Aaron Graves KW Realty.jpg'
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+
 
 const App = () => {
     const phoneNumber = '9845810182';
@@ -14,6 +16,9 @@ const App = () => {
     const openWhatsAppChat = () => {
       window.open(whatsappLink, '_blank');
     };
+    
+
+
   return (
 <Fragment>
   <div className='main-div'>
@@ -67,6 +72,29 @@ Welcome to Saz PG, an exclusive
      to your home away from home!</p>
         </section>
    </div>
+   <div className='sell-section'>
+    <div className='heading-sell-section'>
+      <h2>Accommodation Options</h2>
+    </div>
+      <div className='scroll-container'>
+        <section className='sell-section-box'>
+          <h2>2 sharing</h2>
+          <button>Book now</button>
+        </section>
+        <section className='sell-section-box'>
+          <h2>3 sharing</h2>
+          <button>Book now</button>
+        </section>
+        <section className='sell-section-box'>
+          <h2>4 sharing</h2>
+          <button>Book now</button>
+        </section>
+        <section className='sell-section-box'>
+          <h2>Daily basis</h2>
+          <button>Book now</button>
+        </section>
+      </div>
+    </div>
    </div>
 </Fragment>
   );

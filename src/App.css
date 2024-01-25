@@ -673,7 +673,7 @@
 }
 
 .aboutUs {
-  margin-top: 100px;
+  margin-top: 150px;
   display: flex;
   align-items: center;
 }
@@ -682,7 +682,7 @@
   background-image: url('./images/Real\ Estate\ Agent\ Granville\,\ OH\ _\ Aaron\ Graves\ KW\ Realty.jpg');
   background-size: cover;
   border-radius: 15px;
-  height: 100vh;
+  height: 80vh;
   background-repeat: no-repeat;
   flex: 1;
 }
@@ -733,6 +733,71 @@
   }
   .abtus-text p {
     font-size: 16px;
+  }
+}
+
+
+/* Overall Styling */
+/* Overall Styling */
+.sell-section {
+  color: #fff; /* White text color */
+  text-align: center;
+  padding: 20px; /* Adjust padding as needed */
+  margin-top: 100px;
+}
+
+.heading-sell-section {
+  padding-bottom: 10px; /* Adjust padding as needed */
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+/* Horizontal Scrolling Container */
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  margin-bottom: 20px; /* Add some space at the bottom */
+}
+
+/* Individual Selling Box Styling */
+.sell-section-box {
+  background-color: #212121; /* Dark grey background color */
+  margin-right: 20px; /* Adjust margin as needed */
+  padding: 20px; /* Adjust padding as needed */
+  border-radius: 8px; /* Rounded corners for boxes */
+  width: 300px;
+  height: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+}
+
+.sell-section-box h2 {
+  margin-bottom: 10px; /* Adjust margin as needed */
+  color: #ffd700; /* Golden text color for headings */
+}
+
+.sell-section-box button {
+  background-color: #ffd700; /* Golden button color */
+  color: #333; /* Dark text color for the button */
+  padding: 10px 15px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 4px; /* Rounded corners for buttons */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.sell-section-box button:hover {
+  background-color: #ffcc00; /* Darken the button color on hover */
+}
+
+/* Responsive Styles for Mobile */
+@media screen and (max-width: 600px) {
+  .scroll-container {
+    flex-wrap: wrap; /* Allow boxes to wrap to the next line */
+  }
+
+  .sell-section-box {
+    width: 100%; /* Make boxes take up full width on mobile */
+    margin-right: 0; /* No margin on mobile */
+    margin-bottom: 20px; /* Add space between boxes on mobile */
   }
 }
 @import url('https://fonts.googleapis.com/css?family=San+Francisco&display=swap');
