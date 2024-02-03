@@ -21,81 +21,39 @@ const App = () => {
 
   return (
 <Fragment>
-  <div className='main-div'>
-    <div className='header'>
-      <header>
-        <div className='logo'>
-          <img src={logo} alt='Saz PG' />
-        </div>
-        <div className='header-btns'>
-          <button className='header-btn'>About us</button>
-          <button className='header-btn'>Details</button>
-          <button className='header-btn' onClick={openWhatsAppChat}>Book now</button>
-          <button className='contact-us-btn-spcbtn' onClick={openWhatsAppChat}>Contact us</button>
+<div className='main-div'>
+  <div className='top-section'>
+    <section>
+      <div className='btn-top-section'>
+        <button className='location-btn-top-section'>
+          <a href='https://maps.app.goo.gl/DVDUtJAu9ZKtNSDB8' style={{textDecoration: 'none', color: 'white'}}>
+          <span className='location-icon'>⚲</span> Banglore, vasanthnagar 560001
+          </a>
+        </button>
+      </div>
+    </section>
+  </div>
+  <div className='header'>
+      <header className='header-container'>
+        <div className='center-content'>
+          <div className='left-buttons'>
+            <button className='header-button' onClick={openWhatsAppChat}>Contact Us</button>
+            <button className='header-button'>About us</button>
+          </div>
+          <div className='logo'>
+            {/* Your logo goes here */}
+            <img src={logo} alt="Logo" className='logo-image' />
+          </div>
+          <div className='right-buttons'>
+          <a href='https://maps.app.goo.gl/DVDUtJAu9ZKtNSDB8' style={{textDecoration: 'none', color: 'black'}}>
+            <button className='header-button'>Location</button>
+            </a>
+            <button className='header-button'>availability</button>
+          </div>
         </div>
       </header>
     </div>
-  <div className='banner'>
-    <div className='banner-txt'>
-      <h2>Book your room<br/> now!</h2>
-      <button onClick={openWhatsAppChat}>Book Now</button>
-    </div>
-  </div>
-  <div className='some-breif-description'>
-    <section className='box-sbd'>
-        <h3>500+<br/>
-        Stays
-        </h3>
-    </section>
-    <section className='box-sbd'>
-        <h3>4.6 <img src={star} style={{width: '20px'}}/><br/>
-        Rating
-        </h3>
-    </section>
-    <section className='box-sbd'>
-        <h3>15<br/>
-            Years legacy
-        </h3>
-    </section>
-   </div>
-   <div className='aboutUs'>
-        <section className='abtusimg'></section>
-        <section className='abtus-text'>
-          <h2>About us</h2>
-          <p>
-Welcome to Saz PG, an exclusive
- space crafted for men seeking camaraderie and
-  comfort. Enjoy savory meals, 2-4 sharing rooms
-   with attached bathrooms, a washing machine,
-    speedy WiFi, and more. It's not just
-     accommodation; it's brotherhood. Welcome 
-     to your home away from home!</p>
-        </section>
-   </div>
-   <div className='sell-section'>
-    <div className='heading-sell-section'>
-      <h2>Accommodation Options</h2>
-    </div>
-      <div className='scroll-container'>
-        <section className='sell-section-box'>
-          <h2>2 sharing</h2>
-          <button onClick={openWhatsAppChat}>Book now</button>
-        </section>
-        <section className='sell-section-box'>
-          <h2>3 sharing</h2>
-          <button onClick={openWhatsAppChat}>Book now</button>
-        </section>
-        <section className='sell-section-box'>
-          <h2>4 sharing</h2>
-          <button onClick={openWhatsAppChat}>Book now</button>
-        </section>
-        <section className='sell-section-box'>
-          <h2>Daily basis</h2>
-          <button onClick={openWhatsAppChat}>Book now</button>
-        </section>
-      </div>
-    </div>
-   </div>
+</div>
 </Fragment>
   );
 };
