@@ -140,3 +140,62 @@ body {
       margin: 5px;
     }
   }
+
+/* Container styles */
+.container-section-1 {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+}
+
+/* Text styles */
+.text-section-1 {
+  flex: 1;
+}
+
+/* Header styles */
+
+
+/* Paragraph styles */
+.description-section-1 {
+  line-height: 1.5;
+}
+
+/* Business name styles */
+.business-name-section-1 {
+  font-weight: bold;
+}
+
+/* Image styles */
+.section-1-img {
+  width: 400px; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height as needed */
+  background-image: url('./images/Real\ Estate\ Agent\ Granville\,\ OH\ _\ Aaron\ Graves\ KW\ Realty.jpg'); /* Provide the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .container-section-1 {
+    flex-direction: column-reverse; /* Reverse the order on smaller screens */
+  }
+
+  .section-1-img {
+    height: 200px; /* Adjust the height as needed */
+    width: 100%;
+  }
+}
+
+/* Media query for larger screens */
+@media (min-width: 1024px) {
+  .container-section-1 {
+    flex-direction: row; /* Make them inline on larger screens */
+  }
+
+  .text-section-1 {
+    margin-right: 20px; /* Adjust the spacing between text and image */
+  }
+}

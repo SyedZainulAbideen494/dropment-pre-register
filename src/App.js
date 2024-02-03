@@ -62,6 +62,17 @@ const App = () => {
         </a>
       </div>
     </div>
+    <div className="container-section-1">
+      <div className="text-section-1">
+        <h1 className="title-section-1">Your Home Away From Home!</h1>
+        <p className="description-section-1">
+          with our shared accommodation options tailored for working professionals and students.
+          At <span className="business-name-section-1">Saz PG</span>, we prioritize comfort, convenience, and community,
+          providing you with an ideal living space for your extended stays.
+        </p>
+      </div>
+      <div className="section-1-img"></div>
+    </div>
 </div>
 </Fragment>
   );
