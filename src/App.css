@@ -58,7 +58,8 @@ body {
   height: auto;
 }
 
-.header-button {
+.header-button,
+.header-button-dis {
   background-color: transparent;
   color: black;
   border: none;
@@ -74,8 +75,7 @@ body {
     align-items: center;
   }
 
-  .left-buttons,
-  .right-buttons {
+  .header-button  {
     display: none;
   }
 

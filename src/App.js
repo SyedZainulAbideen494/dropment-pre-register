@@ -37,7 +37,7 @@ const App = () => {
       <header className='header-container'>
         <div className='center-content'>
           <div className='left-buttons'>
-            <button className='header-button' onClick={openWhatsAppChat}>Contact Us</button>
+            <button className='header-button-dis' onClick={openWhatsAppChat}>Contact Us</button>
             <button className='header-button'>About us</button>
           </div>
           <div className='logo'>
@@ -48,7 +48,7 @@ const App = () => {
           <a href='https://maps.app.goo.gl/DVDUtJAu9ZKtNSDB8' style={{textDecoration: 'none', color: 'black'}}>
             <button className='header-button'>Location</button>
             </a>
-            <button className='header-button'>availability</button>
+            <button className='header-button-dis'>availability</button>
           </div>
         </div>
       </header>
