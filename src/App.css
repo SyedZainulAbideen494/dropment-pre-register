@@ -83,3 +83,59 @@ body {
     margin: 10px 0; /* Adjust margin as needed */
   }
 }
+
+  .banner-hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/Untitled design.png') center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .banner-hero-section h1 {
+    font-size: 80px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  .banner-hero-section .button-container {
+    display: flex;
+  }
+  @media (min-width: 768px){
+    .banner-hero-section .button-container {
+      gap: 40px; /* Adjust the gap between buttons */
+    }
+  }
+  .banner-hero-section button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 14px 40px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .banner-hero-section button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  @media (max-width: 768px) {
+    .banner-hero-section h1 {
+      font-size: 2em;
+    }
+  
+    .banner-hero-section .button-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .banner-hero-section button {
+      font-size: 14px;
+      padding: 8px 16px;
+      margin: 5px;
+    }
+  }

@@ -53,6 +53,13 @@ const App = () => {
         </div>
       </header>
     </div>
+    <div className='banner-hero-section'>
+      <h1>LUXURY LIVING</h1>
+      <div className='button-container'>
+        <button onClick={openWhatsAppChat}>Contact Us</button>
+        <button onClick={openWhatsAppChat}>Book Now</button>
+      </div>
+    </div>
 </div>
 </Fragment>
   );
