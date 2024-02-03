@@ -112,7 +112,7 @@ const App = () => {
                     </section>
                 </div>
                 <div className='section-3' ref={aboutusref}>
-                  <h2>Amenities You Can Count On</h2>
+                  <h2 style={{marginBottom: '30px'}}>Amenities You Can Count On</h2>
                   <section className='section-3-amenities'>
                     <img src={dinner}/>
                     <h3>Daily Dinner:</h3>
@@ -153,7 +153,7 @@ const App = () => {
                        options cater to your needs. Choose our daily
                         basis rooms for a temporary stay without 
                         compromising on quality.</p>
-                        <button>Book Now</button>
+                        <button onClick={openWhatsAppChat}>Book Now</button>
                   </section>
                 </div>
             </div>
