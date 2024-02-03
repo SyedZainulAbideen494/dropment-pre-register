@@ -210,7 +210,8 @@ body {
 
 /* Heading styles */
 .section-2 h2 {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  font-size: 30px;
 }
 
 /* Accommodation options styles */
