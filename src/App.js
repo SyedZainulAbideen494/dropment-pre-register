@@ -186,6 +186,9 @@ const App = () => {
               </section>
          </footer>
         </div>
+        <div className='copyrights' style={{textAlign: 'center'}}>
+        &copy; {new Date().getFullYear()} Saz. All rights reserved.
+        </div>
             </div>
         </Fragment>
     );
