@@ -315,3 +315,73 @@ body {
     max-width: none; /* Remove the maximum width on smaller screens */
   }
 }
+
+/* Section-4 styles */
+.section-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin-top: 100px;
+}
+
+/* Image container styles */
+.section-4-img {
+  width: 600px; /* Adjust the width as needed for larger screens */
+  height: 400px; /* Adjust the height as needed */
+  background-image: url('./images/Four\ Ways\ Landlords\ Can\ Foster\ Positive\ Landlord-Tenant\ Relationships.jpg'); /* Provide the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Text container styles */
+.section-4-text {
+  max-width: 400px;
+  margin-left: 40px; /* Adjust the margin as needed */
+  text-align: center;
+}
+
+/* Heading styles */
+.section-4-text h2 {
+  font-size: 30px;
+}
+
+/* Paragraph styles */
+.section-4-text p {
+  line-height: 1.5;
+}
+.section-4-text button {
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  padding: 12px 25px;
+  margin-top: 15px;
+}
+.section-4-text button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  /* Stack image and text on smaller screens */
+  .section-4 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* Adjust image size for smaller screens */
+  .section-4-img {
+    width: 100%;
+    height: 300px; /* Adjust the height as needed for smaller screens */
+    margin-bottom: 20px;
+  }
+
+  /* Reset margin for text on smaller screens */
+  .section-4-text {
+    margin-left: 0;
+  }
+}

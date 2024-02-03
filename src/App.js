@@ -144,6 +144,18 @@ const App = () => {
                       at Saz PG stress-free and enjoyable.</p>
                   </section>
                 </div>
+                <div className='section-4'>
+                  <section className='section-4-img'></section>
+                  <section className='section-4-text'>
+                    <h2>Flexible Stays</h2>
+                    <p>Whether you require a long-term arrangement
+                       or a short-term stay, our flexible rental 
+                       options cater to your needs. Choose our daily
+                        basis rooms for a temporary stay without 
+                        compromising on quality.</p>
+                        <button>Book Now</button>
+                  </section>
+                </div>
             </div>
         </Fragment>
     );
