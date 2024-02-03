@@ -21,10 +21,15 @@ const App = () => {
     };
 
     const accommodationsRef = useRef(null);
+    const aboutusref = useRef(null);
 
     const scrollToAccommodations = () => {
         accommodationsRef.current.scrollIntoView({ behavior: 'smooth' });
     };
+
+    const scrollToAboutus = () => {
+      aboutusref.current.scrollIntoView({ behavior: 'smooth' });
+  };
 
     return (
         <Fragment>
@@ -45,7 +50,7 @@ const App = () => {
                         <div className='center-content'>
                             <div className='left-buttons'>
                                 <button className='header-button-dis' onClick={openWhatsAppChat}>Contact Us</button>
-                                <button className='header-button'>About us</button>
+                                <button className='header-button' onClick={scrollToAboutus}>About us</button>
                             </div>
                             <div className='logo'>
                                 <img src={logo} alt="Logo" className='logo-image' />
@@ -106,7 +111,7 @@ const App = () => {
                             <button onClick={openWhatsAppChat}>Book Now</button>
                     </section>
                 </div>
-                <div className='section-3'>
+                <div className='section-3' ref={aboutusref}>
                   <h2>Amenities You Can Count On</h2>
                   <section className='section-3-amenities'>
                     <img src={dinner}/>
