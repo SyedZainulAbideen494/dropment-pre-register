@@ -242,6 +242,13 @@ body {
   background-color: transparent;
   border: 2px solid white;
   border-radius: 15px;
+  color: white;
+  cursor: pointer;
+}
+.accommodation-opt button:hover {
+  background-color: white;
+  transition: 0.3s;
+  color: black;
 }
 
 /* Media query for smaller screens */
