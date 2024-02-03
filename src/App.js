@@ -73,6 +73,30 @@ const App = () => {
       </div>
       <div className="section-1-img"></div>
     </div>
+    <div className='section-2'>
+      <h2>Accommodation Options</h2>
+      <section className='accommodation-opt'>
+        <h3>2 Sharing Rooms</h3>
+        <p>Experience privacy and comfort in our 2 
+          sharing rooms, perfect for those who prefer
+           a more intimate setting while enjoying 
+           the benefits of shared living.</p>
+      </section>
+      <section className='accommodation-opt'>
+        <h3>3 Sharing Rooms</h3>
+        <p>Foster connections and build friendships
+           in our spacious 3 sharing rooms, designed
+            to create a dynamic and interactive living 
+            environment</p>
+      </section>
+      <section className='accommodation-opt'>
+        <h3>4 Sharing Rooms</h3>
+        <p>Embrace a lively atmosphere in our 4 
+          sharing rooms, where you can thrive in 
+          a vibrant community while having your
+           own personal space.</p>
+      </section>
+    </div>
 </div>
 </Fragment>
   );

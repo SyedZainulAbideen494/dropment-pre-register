@@ -199,3 +199,49 @@ body {
     margin-right: 20px; /* Adjust the spacing between text and image */
   }
 }
+
+/* Section-2 styles */
+.section-2 {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text color */
+  padding: 40px;
+  text-align: center;
+}
+
+/* Heading styles */
+.section-2 h2 {
+  margin-bottom: 20px;
+}
+
+/* Accommodation options styles */
+.accommodation-opt {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 300px;
+  margin: 20px 10px; /* Center the options on larger screens */
+  padding: 20px;
+  background-color: #333; /* Dark gray background */
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Heading styles for each option */
+.accommodation-opt h3 {
+  color: #fff; /* White text color */
+}
+
+/* Paragraph styles for each option */
+.accommodation-opt p {
+  line-height: 1.5;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .accommodation-opt {
+    display: block;
+    max-width: none;
+    width: 100%; /* Make each option take full width on smaller screens */
+    margin: 20px 0; /* Add margin on smaller screens */
+  }
+}
