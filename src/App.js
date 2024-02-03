@@ -83,7 +83,7 @@ const App = () => {
                             sharing rooms, perfect for those who prefer
                             a more intimate setting while enjoying
                             the benefits of shared living.</p>
-                            <button>Book Now</button>
+                            <button onClick={openWhatsAppChat}>Book Now</button>
                     </section>
                     <section className='accommodation-opt'>
                         <h3>3 Sharing Rooms</h3>
@@ -91,7 +91,7 @@ const App = () => {
                             in our spacious 3 sharing rooms, designed
                             to create a dynamic and interactive living
                             environment</p>
-                            <button>Book Now</button>
+                            <button onClick={openWhatsAppChat}>Book Now</button>
                     </section>
                     <section className='accommodation-opt'>
                         <h3>4 Sharing Rooms</h3>
@@ -99,7 +99,7 @@ const App = () => {
                             sharing rooms, where you can thrive in
                             a vibrant community while having your
                             own personal space.</p>
-                            <button>Book Now</button>
+                            <button onClick={openWhatsAppChat}>Book Now</button>
                     </section>
                 </div>
             </div>
