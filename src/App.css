@@ -146,6 +146,7 @@ body {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
+  margin-top: 100px;
   display: flex;
 }
 
@@ -205,6 +206,7 @@ body {
   background-color: #000; /* Black background */
   color: #fff; /* White text color */
   padding: 40px;
+  margin-top: 100px;
   text-align: center;
 }
 
@@ -258,5 +260,58 @@ body {
     max-width: none;
     width: 100%; /* Make each option take full width on smaller screens */
     margin: 20px 0; /* Add margin on smaller screens */
+  }
+}
+
+/* Section-3 styles */
+.section-3 {
+  text-align: center;
+  padding: 40px;
+  margin-top: 100px;
+}
+
+/* Main heading styles */
+.section-3 h2 {
+  margin-bottom: 20px;
+}
+
+/* Amenities container styles */
+.section-3-amenities {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 20px;
+  text-align: center;
+  max-width: 300px; /* Set a maximum width for better layout on larger screens */
+}
+
+/* Heading styles for each amenity */
+.section-3-amenities h3 {
+  display: inline-block;
+  border-bottom: 2px solid #007bff; /* Blue underline */
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  width: 100%; /* Ensure the heading takes full width */
+}
+
+/* Image styles */
+.section-3-amenities img {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  /* Center the main heading and stack amenities vertically on smaller screens */
+  .section-3 h2 {
+    text-align: center;
+  }
+
+  /* Display amenities vertically on smaller screens */
+  .section-3-amenities {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: none; /* Remove the maximum width on smaller screens */
   }
 }

@@ -7,6 +7,10 @@ import star from './images/Untitled_design-removebg-preview.png'
 import img1 from './images/Real Estate Agent Granville, OH _ Aaron Graves KW Realty.jpg'
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import wifi from './images/wifi-sign.png';
+import basicimu from './images/icons8-smart-home-shield-64.png'
+import washingmachine from './images/washing-machine-removebg-preview.png'
+import dinner from './images/dinner.png'
 
 const App = () => {
     const phoneNumber = '9845810182';
@@ -101,6 +105,39 @@ const App = () => {
                             own personal space.</p>
                             <button onClick={openWhatsAppChat}>Book Now</button>
                     </section>
+                </div>
+                <div className='section-3'>
+                  <h2>Amenities You Can Count On</h2>
+                  <section className='section-3-amenities'>
+                    <img src={dinner}/>
+                    <h3>Daily Dinner:</h3>
+                    <p>Savor the convenience of a delicious and 
+                      nutritious dinner every day, specially 
+                      prepared to cater to your dietary preferences.
+                       On Sundays, we go the extra mile by providing
+                        both lunch and dinner.</p>
+                  </section>
+                  <section className='section-3-amenities'>
+                    <img src={wifi}/>
+                    <h3>WiFi:</h3>
+                    <p>Stay connected with high-speed WiFi throughout 
+                      our premises, ensuring you have a reliable internet
+                       connection for work, studies, and entertainment.</p>
+                  </section>
+                  <section className='section-3-amenities'>
+                    <img src={washingmachine}/>
+                    <h3>Washing Machine:</h3>
+                    <p>Say goodbye to laundry hassles with our fully
+                       equipped washing machines, offering the convenience
+                        of clean clothes whenever you need them</p>
+                  </section>
+                  <section className='section-3-amenities'>
+                    <img src={basicimu}/>
+                    <h3>Basic Amenities:</h3>
+                    <p>Enjoy a comfortable stay with essential 
+                      amenities provided, making your experience 
+                      at Saz PG stress-free and enjoyable.</p>
+                  </section>
                 </div>
             </div>
         </Fragment>
