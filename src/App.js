@@ -11,6 +11,7 @@ import wifi from './images/wifi-sign.png';
 import basicimu from './images/icons8-smart-home-shield-64.png'
 import washingmachine from './images/washing-machine-removebg-preview.png'
 import dinner from './images/dinner.png'
+import instagram from './images/instagram_logo.png'
 
 const App = () => {
     const phoneNumber = '9845810182';
@@ -156,6 +157,35 @@ const App = () => {
                         <button onClick={openWhatsAppChat}>Book Now</button>
                   </section>
                 </div>
+                <div className="dropment-main-blog-page-footer">
+         <footer>
+              <section className="dropment-main-blog-page-footer-links-section">
+                <h2 style={{color: 'black'}}>Links</h2>
+                <p onClick={scrollToAboutus}>About us</p>
+                <p onClick={scrollToAccommodations}>accommodations</p>
+              </section>
+              <section className="dropment-main-blog-page-footer-follow-section">
+                <h2 style={{color: 'black'}}>Social media</h2>
+                <a href="https://www.instagram.com/dropment.online/">
+                <img src={instagram}/>
+                </a>
+              </section>
+              <section className="dropment-main-blog-page-footer-contact-section">
+                <h2 style={{color: 'black'}}>contact</h2>
+                <p>Email: dropment.saz@gmail.com</p>
+                <p onClick={openWhatsAppChat}>Phone no: 9845810182</p>
+              </section>
+              <section className="dropment-main-blog-page-footer-follow-section">
+                <h2 style={{color: 'black'}}>Other businesses</h2>
+                <a href="https://dropment.online/" style={{textDecoration: 'none'}}>
+                <p>Dropment</p>
+                </a>
+                <a href="https://saz-infotech.vercel.app/" style={{textDecoration: 'none'}}>
+                <p>Saz-infotech</p>
+                </a>
+              </section>
+         </footer>
+        </div>
             </div>
         </Fragment>
     );

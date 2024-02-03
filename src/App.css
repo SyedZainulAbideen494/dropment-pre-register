@@ -386,3 +386,56 @@ body {
     margin-left: 0;
   }
 }
+
+/* Footer styles */
+.dropment-main-blog-page-footer {
+  background-color: #E7FFF1; /* Light gray background */
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Footer sections styles */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Common styles for each section */
+.dropment-main-blog-page-footer section {
+  flex: 1;
+  max-width: 200px;
+  margin: 20px;
+}
+
+/* Heading styles */
+.dropment-main-blog-page-footer h2 {
+  color: black;
+  font-size: 20px;
+}
+
+/* Link styles */
+.dropment-main-blog-page-footer p {
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+/* Social media link styles */
+.dropment-main-blog-page-footer img {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  /* Stack sections on smaller screens */
+  footer {
+    flex-direction: column;
+  }
+
+  /* Center align text in each section on smaller screens */
+  .dropment-main-blog-page-footer section {
+    text-align: center;
+  }
+}
