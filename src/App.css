@@ -221,7 +221,7 @@ body {
   max-width: 300px;
   margin: 20px 10px; /* Center the options on larger screens */
   padding: 20px;
-  background-color: #333; /* Dark gray background */
+  background-color: #161a1d; /* Dark gray background */
   border-radius: 10px;
   display: inline-block;
   vertical-align: top;
@@ -229,12 +229,19 @@ body {
 
 /* Heading styles for each option */
 .accommodation-opt h3 {
-  color: #fff; /* White text color */
+  color: #d3d3d3; /* White text color */
 }
 
 /* Paragraph styles for each option */
 .accommodation-opt p {
   line-height: 1.5;
+}
+
+.accommodation-opt button {
+  padding: 12px 20px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 15px;
 }
 
 /* Media query for smaller screens */
