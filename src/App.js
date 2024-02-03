@@ -57,7 +57,9 @@ const App = () => {
       <h1>LUXURY LIVING</h1>
       <div className='button-container'>
         <button onClick={openWhatsAppChat}>Contact Us</button>
-        <button onClick={openWhatsAppChat}>Book Now</button>
+        <a href='https://maps.app.goo.gl/DVDUtJAu9ZKtNSDB8' style={{textDecoration: 'none', color: 'white'}}>
+        <button onClick={openWhatsAppChat}>Location</button>
+        </a>
       </div>
     </div>
 </div>
