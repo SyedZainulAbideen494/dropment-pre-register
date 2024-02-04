@@ -66,7 +66,7 @@ const App = () => {
                     </header>
                 </div>
                 <div className='banner-hero-section'>
-                    <h1>LUXURY LIVING</h1>
+                    <h1>Home Away From home</h1>
                     <div className='button-container'>
                         <button onClick={openWhatsAppChat}>Contact Us</button>
                         <a href='https://maps.app.goo.gl/DVDUtJAu9ZKtNSDB8' style={{ textDecoration: 'none', color: 'white' }}>
