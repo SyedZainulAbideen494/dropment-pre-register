@@ -45,7 +45,7 @@ const App = () => {
                                     <span className='location-icon'>⚲</span> Banglore, vasanthnagar 560001
                                 </a>
                             </button>
-                            <button className='location-btn-top-section'>
+                            <button className='location-btn-top-section' onClick={handleCallButtonClick}>
                               Call 9845810182
                             </button>
                         </div>
