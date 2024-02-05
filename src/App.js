@@ -44,7 +44,7 @@ const App = () => {
                                 <a href='https://maps.app.goo.gl/DVDUtJAu9ZKtNSDB8' style={{ textDecoration: 'none', color: 'white' }}>
                                     <span className='location-icon'>⚲</span> Banglore, vasanthnagar 560001
                                 </a>
-                            </button>
+                            </button><br/>
                             <button className='location-btn-top-section' onClick={handleCallButtonClick}>
                               Call 9845810182
                             </button>
