@@ -27,7 +27,9 @@ const App = () => {
     const scrollToAccommodations = () => {
         accommodationsRef.current.scrollIntoView({ behavior: 'smooth' });
     };
-
+    const handleCallButtonClick = () => {
+        window.location.href = `tel:${phoneNumber}`;
+      };
     const scrollToAboutus = () => {
       aboutusref.current.scrollIntoView({ behavior: 'smooth' });
   };
@@ -42,6 +44,9 @@ const App = () => {
                                 <a href='https://maps.app.goo.gl/DVDUtJAu9ZKtNSDB8' style={{ textDecoration: 'none', color: 'white' }}>
                                     <span className='location-icon'>⚲</span> Banglore, vasanthnagar 560001
                                 </a>
+                            </button>
+                            <button className='location-btn-top-section'>
+                              Call 9845810182
                             </button>
                         </div>
                     </section>
